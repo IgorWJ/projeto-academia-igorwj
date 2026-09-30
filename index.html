@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Studio - Mude sua vida</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">FitZone Studio</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-studio" class="nav-link">
+                            <i class="bi bi-info-circle me-1"></i>
+                            Sobre o Studio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#diferenciais" class="nav-link">
+                            <i class="bi bi-trophy me-1"></i>
+                            Diferenciais</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#modalidades" class="nav-link">
+                            <i class="bi bi-activity me-1"></i>
+                            Modalidades</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <!-- Carrossel & Sobre -->
+        <section id="sobre-o-studio">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&h=500&fit=crop" class="d-block w-100" alt="Espaço de Musculação">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1200&h=500&fit=crop" class="d-block w-100" alt="Treino Funcional">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1200&h=500&fit=crop" class="d-block w-100" alt="Área Cardio">
+                    </div>
+                    <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+
+                <!-- Sobre -->
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=600&h=450&fit=crop" class="d-block w-100 rounded" alt="Equipe FitZone">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre <span class="text-colored">o studio</span></h2>
+                                <p>
+                                    O FitZone Studio foi criado para transformar a sua rotina de treinos em uma experiência motivadora e eficiente. Oferecemos infraestrutura de ponta e acompanhamento personalizado para você alcançar seus objetivos de saúde e performance.
+                                </p>
+                                <h3 class="section-title">Nossa <span class="text-colored">estrutura</span></h3>
+                                <p>
+                                    Ambiente totalmente climatizado, equipamentos modernos de biomecânica avançada, vestiários premium e espaço exclusivo para avaliação física integrada.
+                                </p>
+                                <ul>
+                                    <li>Acompanhamento com Personal Trainers qualificados</li>
+                                    <li>Avaliação física completa com bioimpedância</li>
+                                    <li>Grade de aulas coletivas diárias</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diferenciais -->
+        <section id="diferenciais" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Por que escolher o <span class="text-colored">FitZone</span>?</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=400&h=250&fit=crop" alt="Consultoria Nutricional" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-heart-pulse-fill"></i>
+                            Consultoria de Saúde
+                        </h3>
+                        <p>Plano alimentar e acompanhamento nutricional personalizado diretamente pelo nosso aplicativo exclusivo para potencializar seus resultados de forma saudável.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400&h=250&fit=crop" alt="Aulas Coletivas" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Aulas Coletivas
+                        </h3>
+                        <p>Treine com energia em aulas dinâmicas de Spinning, FitDance, Pilates e Cross Training inclusas em todos os nossos planos sem custo adicional.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=400&h=250&fit=crop" alt="Horários Flexíveis" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-clock-fill"></i>
+                            Horários Flexíveis
+                        </h3>
+                        <p>Abertos de domingo a domingo com horário estendido para você adaptar os treinos perfeitamente à sua rotina diária de trabalho e estudos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modalidades -->
+        <section id="modalidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossas <span class="text-colored">modalidades</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#musculacao" class="fw-bold text-start nav-link text-colored active">Musculação</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cardio" class="fw-bold text-start nav-link text-colored">Cardio & HIIT</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#funcional" class="fw-bold text-start nav-link text-colored">Funcional</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#dancas" class="fw-bold text-start nav-link text-colored">Dança & Ritmos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#lutas" class="fw-bold text-start nav-link text-colored">Artes Martiais</button>
+                        </nav>
+                    </aside>
+
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <!-- Musculação -->
+                            <div class="tab-pane active" id="musculacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=300&h=200&fit=crop" alt="Hipertrofia">
+                                        <h5 class="text-colored fw-bold mt-2">Hipertrofia</h5>
+                                        <p>Treinos focados em ganho de massa muscular com acompanhamento técnico constante.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?q=80&w=300&h=200&fit=crop" alt="Treino de Força">
+                                        <h5 class="text-colored fw-bold mt-2">Treino de Força</h5>
+                                        <p>Desenvolvimento de força pura, potência e resistência muscular.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=300&h=200&fit=crop" alt="Livre & Anilhas">
+                                        <h5 class="text-colored fw-bold mt-2">Pesos Livres</h5>
+                                        <p>Área ampla com halteres de até 50kg e gaiolas completas de agachamento.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?q=80&w=300&h=200&fit=crop" alt="Adaptada">
+                                        <h5 class="text-colored fw-bold mt-2">Terceira Idade</h5>
+                                        <p>Exercícios adaptados para manutenção da densidade óssea e mobilidade.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Cardio & HIIT -->
+                            <div class="tab-pane" id="cardio">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?q=80&w=300&h=200&fit=crop" alt="Spinning">
+                                        <h5 class="text-colored fw-bold mt-2">Indoor Cycling</h5>
+                                        <p>Aulas intensas de bike indoor com simulador de rotas e iluminação especial.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=300&h=200&fit=crop" alt="HIIT">
+                                        <h5 class="text-colored fw-bold mt-2">Circuit HIIT</h5>
+                                        <p>Treino intervalado de alta intensidade para queima calórica acelerada.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Funcional -->
+                            <div class="tab-pane" id="funcional">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=300&h=200&fit=crop" alt="Cross Training">
+                                        <h5 class="text-colored fw-bold mt-2">Cross Training</h5>
+                                        <p>Exercícios dinâmicos com kettlebells, cordas navais e caixas de salto.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=300&h=200&fit=crop" alt="Core & Flex">
+                                        <h5 class="text-colored fw-bold mt-2">Core & Flex</h5>
+                                        <p>Foco na estabilização abdominal, fortalecimento lombar e flexibilidade.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Dança & Ritmos -->
+                            <div class="tab-pane" id="dancas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=300&h=200&fit=crop" alt="FitDance">
+                                        <h5 class="text-colored fw-bold mt-2">FitDance</h5>
+                                        <p>Coreografias dos ritmos do momento para gastar calorias se divertindo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?q=80&w=300&h=200&fit=crop" alt="Zumba">
+                                        <h5 class="text-colored fw-bold mt-2">Zumba</h5>
+                                        <p>Mistura de ritmos latinos e internacionais com exercícios aeróbicos.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Artes Martiais -->
+                            <div class="tab-pane" id="lutas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=300&h=200&fit=crop" alt="Muay Thai">
+                                        <h5 class="text-colored fw-bold mt-2">Muay Thai</h5>
+                                        <p>Treino completo de defesa pessoal, agilidade e excelente condicionamento.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1517438322307-e67111335449?q=80&w=300&h=200&fit=crop" alt="Boxe">
+                                        <h5 class="text-colored fw-bold mt-2">Boxe Fit</h5>
+                                        <p>Técnicas de boxe focadas em coordenação, disciplina e alto gasto calórico.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fale Conosco -->
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Agende uma <span class="text-colored">aula experimental</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold text-colored">Seu telefone / WhatsApp</label>
+                                <input type="tel" id="tel" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="msg" class="form-label fw-bold text-colored">Qual modalidade deseja testar?</label>
+                                <textarea id="msg" class="form-control" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Agendar Treino</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill me-1"></i>
+                                Siga-nos nas redes
+                            </h3>
+                            <ul class="social-links p-0">
+                                <li class="fs-5">
+                                    <a href="#"><i class="bi bi-facebook text-colored"></i></a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#"><i class="bi bi-instagram text-colored"></i></a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#"><i class="bi bi-whatsapp text-colored"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored"> 
+                                <i class="bi bi-geo-alt-fill me-1"></i>
+                                Localização
+                            </h3>
+                            <p>Av. Fitness, nº 1000 - Bairro Bootstrap - São Paulo - SP</p>
+                            <p class="mt-2"><strong>Horário de Funcionamento:</strong><br>Seg a Sex: 06h às 23h<br>Sáb, Dom e Feriados: 08h às 14h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

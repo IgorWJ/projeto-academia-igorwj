@@ -1,0 +1,73 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Identidade Visual: Laranja Fitness & Amarelo Vibrante / Dark */
+.navbar {
+    background-color: #ff5e00;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #ff5e00;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff3ec;
+}
+
+/* Fonte marcante para os títulos (Montserrat) */
+.section-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+/* Alternância de fundos das seções */
+#sobre-o-studio, #modalidades {
+    background-color: #fff3ec;
+}
+
+.text-colored {
+    color: #ff5e00;
+}
+
+/* Botões do menu de abas e do formulário */
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #ff5e00;
+    color: #fff;
+    border: none;
+}
+
+.nav-cardapio .nav-link.active:hover, #fale-conosco button:hover {
+    background-color: #e05300;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #ff5e00;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+/* Ajuste das imagens do carrossel no mobile */
+@media (max-width: 990px) {
+    .carousel-item img {
+        height: 280px;
+        object-fit: cover;
+    }
+}
